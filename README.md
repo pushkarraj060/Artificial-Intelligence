@@ -1,112 +1,127 @@
-**🎓 Face Recognition Attendance System**
 
-**📌 Overview**
+# 🎓 Face Recognition Attendance System
+
+## 📌 Overview
 
 This project is a Face Recognition-based Attendance System built using Python and OpenCV. It automatically detects and recognizes faces and marks attendance with date and time.
 
-**🚀 Features**
+---
 
-Face Registration (Dataset Creation)
+## 🚀 Features
 
-Model Training using LBPH Algorithm
+* Face Registration (Dataset Creation)
+* Model Training using LBPH Algorithm
+* Real-time Face Recognition
+* Attendance Marking (IN/OUT)
+* GUI using Tkinter
+* CSV-based attendance storage
 
-Real-time Face Recognition
+---
 
-Attendance Marking (IN/OUT)
+## 🛠️ Technologies Used
 
-GUI using Tkinter
+* Python
+* OpenCV
+* NumPy
+* Pandas
+* Tkinter
+* PIL
 
-CSV-based attendance storage
+---
 
-**🛠️ Technologies Used**
+## 📂 Project Structure
 
-Python
-
-OpenCV
-
-NumPy
-
-Pandas
-
-Tkinter
-
-PIL
-
-
-**📂 Project Structure**
-
+```
 project/
-
 │── dataset/              # Stored face images
-
 │── trainer/              # Trained model
-
 │── attendance.csv        # Attendance records
-
 │── users.csv             # User details
-
 │── register.py           # Face registration
-
 │── train.py              # Model training
-
 │── main.py               # Attendance system
+```
 
-**⚙️ Installation**
+---
 
-Clone the repository:
+## ⚙️ Installation
 
+1. Clone the repository:
+
+```
 git clone https://github.com/your-username/face-attendance.git
 cd face-attendance
+```
 
-Install dependencies:
+2. Install dependencies:
 
+```
 pip install opencv-python numpy pandas pillow
+```
 
+---
 
-**▶️ Usage**
+## ▶️ Usage
 
-Step 1: Register Face
+### Step 1: Register Face
+
+```
 python register.py
+```
 
-Step 2: Train Model
+### Step 2: Train Model
+
+```
 python train.py
+```
 
-Step 3: Run Attendance System
+### Step 3: Run Attendance System
+
+```
 python main.py
+```
 
-**📊 Output**
+---
 
-Attendance is saved in attendance.csv
+## 📊 Output
 
-Format: Name | Date | Time | Status
+* Attendance is saved in `attendance.csv`
+* Format: Name | Date | Time | Status
 
-**📌 Example**
+---
 
+## 📌 Example
+
+```
 Pushkar, 2026-03-26, 10:15:23, IN
+```
 
-**⚠️ Requirements**
+---
 
-Webcam
+## ⚠️ Requirements
 
-Good lighting conditions
+* Webcam
+* Good lighting conditions
+* Minimum 50 images per user
 
-Minimum 50 images per user
+---
 
-**🔮 Future Improvements**
+## 🔮 Future Improvements
 
-Cloud integration
+* Cloud integration
+* Mobile app support
+* Deep learning models (CNN)
+* Face mask detection
 
-Mobile app support
+---
 
-Deep learning models (CNN)
-
-Face mask detection
-
-**👨‍💻 Author**
+## 👨‍💻 Author
 
 Pushkar Raj
 
-📄 License
+---
+
+## 📄 License
 
 This project is for educational purposes.
 
